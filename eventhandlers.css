@@ -1,0 +1,42 @@
+.display {
+    width: 400px;
+    background-color: darkgray;
+    height: 50px;
+    font-size: 48px;
+    text-align: right;
+}
+.container {
+    background:lightgray;
+    width:max-content;
+    margin: auto;
+}
+
+button {
+    flex-grow: 1;
+    flex-basis: 23%;
+    padding: 15px;
+    font-size: 26px;
+
+}
+
+.buttons {
+    max-width:400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-number {
+    background-color: gray;
+}
+
+.btn-operator {
+    background-color: orange;
+}
+
+.btn-equals {
+    background-color: green;
+}
+
+.btn-clear {
+    background-color: crimson;
+}
